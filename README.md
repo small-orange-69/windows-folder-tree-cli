@@ -42,6 +42,7 @@ Extract all files into the same folder, do not split files apart\.
 
 ```
 工具文件夹/
+├─ _internal                  # Python依赖库文件夹，**必须与 listdir.exe 放在同一目录，不可拆分移动**
 ├─ Install-ListDir-Path.bat   # PATH environment management script / PATH 环境管理脚本
 ├─ list.bat                   # list command entry / list 命令入口
 ├─ listdir.exe                # Main executable, no Python required / 主程序（独立 exe，无需 Python）
